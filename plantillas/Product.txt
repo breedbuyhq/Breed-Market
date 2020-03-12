@@ -50,7 +50,7 @@
 					<ul class="header-links pull-right">
 						<li><a href="#"><i class="fas fa-globe"></i> English</a></li>
 						<li><a href="#"><i class="fa fa-dollar"></i> USD</a></li>
-						<li><a href="#"><i class="far fa-user"></i> Sign In / Join</a></li>
+						<li><a href="#"><i class="far fa-user"></i> User</a></li>
 					</ul>
 				</div>
 			</div>
@@ -103,61 +103,87 @@
 						</div>
 						<!-- /SEARCH BAR -->
 
-						<!-- ACCOUNT -->
-						<div class="col-md-3 clearfix">
-							<div class="header-ctn">
-								<!-- Wishlist -->
-								<div>
-									<a href="#">
-										<i class="fa fa-heart-o"></i>
-										<span>Your Wishlist</span>
-										<div class="qty">2</div>
-									</a>
-								</div>
-								<!-- /Wishlist -->
+												<!-- ACCOUNT -->
+												<div class="col-md-3 clearfix">
+													<div class="header-ctn">
 
-								<!-- Cart -->
-								<div class="dropdown">
-									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
-										<i class="fa fa-shopping-cart"></i>
-										<span>Your Cart</span>
-										<div class="qty">3</div>
-									</a>
-									<div class="cart-dropdown">
-										<div class="cart-list">
-											<div class="product-widget">
-												<div class="product-img">
-													<img src="./img/product01.png" alt="">
-												</div>
-												<div class="product-body">
-													<h3 class="product-name"><a href="#">product name goes here</a></h3>
-													<h4 class="product-price"><span class="qty">1x</span>$980.00</h4>
-												</div>
-												<button class="delete"><i class="fa fa-close"></i></button>
-											</div>
+														<!-- Wishlist -->
+														<div class="dropdown">
+															<a class="dropdown-toggle" data-toggle="dropdown">
+																<i class="fa fa-heart-o"></i>
+																<span>Wishlist</span>
+																<div class="qty">0</div>
+															</a>
+															<div class="cart-dropdown">
 
-											<div class="product-widget">
-												<div class="product-img">
-													<img src="./img/product02.png" alt="">
-												</div>
-												<div class="product-body">
-													<h3 class="product-name"><a href="#">product name goes here</a></h3>
-													<h4 class="product-price"><span class="qty">3x</span>$980.00</h4>
-												</div>
-												<button class="delete"><i class="fa fa-close"></i></button>
-											</div>
-										</div>
-										<div class="cart-summary">
-											<small>3 Item(s) selected</small>
-											<h5>SUBTOTAL: $2940.00</h5>
-										</div>
-										<div class="cart-btns">
-											<a href="#">View Cart</a>
-											<a href="#">Checkout  <i class="fa fa-arrow-circle-right"></i></a>
-										</div>
-									</div>
-								</div>
-								<!-- /Cart -->
+																<div class="cart-list">
+																	<div class="cart-summary">
+																		<h5>Your wishlist is empty!</h5>
+																		<small>Add a new product...</small>
+																	</div>
+																</div>
+																	
+															</div>
+														</div>
+								<!-- /END WISHLIST -->
+						
+														<!-- Cart -->
+														<div class="dropdown">
+															<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+																<i class="fa fa-shopping-cart"></i>
+																<span>Your Cart</span>
+																<div class="qty">3</div>
+															</a>
+															<div class="cart-dropdown">
+																<div class="cart-list">
+
+																	<div class="product-widget">
+																		<div class="product-img">
+																			<img src="./img/catalogs/catalog11.jpg" alt="">
+																		</div>
+																		<div class="product-body">
+																			<h3 class="product-name"><a href="#">Villas Dorper Master</a></h3>
+																			<h4 class="product-price"><span class="qty">x5000</span>$25,00 USD.</h4>
+																		</div>
+																		<button class="delete"><i class="fa fa-close"></i></button>
+																	</div>
+						
+																	<div class="product-widget">
+																		<div class="product-img">
+																			<img src="./img/catalogs/new.jpg" alt="">
+																		</div>
+																		<div class="product-body">
+																			<h3 class="product-name"><a href="#">Sexed Tank *-00034/4</a></h3>
+																			<h4 class="product-price"><span class="qty">x2000</span>$75,00 USD.</h4>
+																		</div>
+																		<button class="delete"><i class="fa fa-close"></i></button>
+																	</div>
+						
+																	<div class="product-widget">
+																		<div class="product-img">
+																			<img src="./img/catalogs/watosi.jpg" alt="">
+																		</div>
+																		<div class="product-body">
+																			<h3 class="product-name"><a href="#">Red US Watusi</a></h3>
+																			<h4 class="product-price"><span class="qty">x200</span>$45,00 USD.</h4>
+																		</div>
+																		<button class="delete"><i class="fa fa-close"></i></button>
+																	</div>
+																</div>
+
+																<div class="cart-summary">
+
+																	<small>3 Item(s) selected</small>
+																	<h5>TOTAL: $290,800 USD.</h5>
+																</div>
+																<div class="cart-btns">
+																	<a href="#">View Cart</a>
+																	<a href="#">Checkout  <i class="fa fa-arrow-circle-right"></i></a>
+
+																</div>
+															</div>
+														</div>
+														<!-- /Cart -->
 
 								<!-- Menu Toogle -->
 								<div class="menu-toggle">
@@ -219,7 +245,8 @@
 							<li><a href="#">All Categories</a></li>
 							<li><a href="#">Horses</a></li>
 							<li><a href="#">PRE</a></li>
-							<li class="active">Product Name Goes Here</li>
+							<li><a href="#">Stallions</a></li>
+							<li class="active">Romero de Trujillo</li>
 						</ul>
 					</div>
 				</div>
@@ -239,19 +266,19 @@
 					<div class="col-md-5 col-md-push-2">
 						<div id="product-main-img">
 							<div class="product-preview">
-								<img src="./img/product01.png" alt="">
+								<img src="./img/catalogs/romero-profile.jpg" alt="">
 							</div>
 
 							<div class="product-preview">
-								<img src="./img/product03.png" alt="">
+								<img src="./img/catalogs/romerito.jpg" alt="">
 							</div>
 
 							<div class="product-preview">
-								<img src="./img/product06.png" alt="">
+								<img src="./img/catalogs/romerotrujillo.jpg" alt="">
 							</div>
 
 							<div class="product-preview">
-								<img src="./img/product08.png" alt="">
+								<img src="./img/catalogs/romero-juez.jpg" alt="">
 							</div>
 						</div>
 					</div>
@@ -261,19 +288,19 @@
 					<div class="col-md-2  col-md-pull-5">
 						<div id="product-imgs">
 							<div class="product-preview">
-								<img src="./img/product01.png" alt="">
+								<img src="./img/catalogs/romero-profile.jpg" alt="">
 							</div>
 
 							<div class="product-preview">
-								<img src="./img/product03.png" alt="">
+								<img src="./img/catalogs/romerito.jpg" alt="">
 							</div>
 
 							<div class="product-preview">
-								<img src="./img/product06.png" alt="">
+								<img src="./img/catalogs/romerotrujillo.jpg" alt="">
 							</div>
 
 							<div class="product-preview">
-								<img src="./img/product08.png" alt="">
+								<img src="./img/catalogs/romero-juez.jpg" alt="">
 							</div>
 						</div>
 					</div>
@@ -282,7 +309,7 @@
 					<!-- Product details -->
 					<div class="col-md-5">
 						<div class="product-details">
-							<h2 class="product-name">product name goes here</h2>
+							<h2 class="product-name">Romero de Trujillo</h2>
 							<div>
 								<div class="product-rating">
 									<i class="fa fa-star"></i>
@@ -294,36 +321,48 @@
 								<a class="review-link" href="#">10 Review(s) | Add your review</a>
 							</div>
 							<div>
-								<h3 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h3>
+								<h3 class="product-price">$2'500€. <del class="product-old-price">$2'990.00</del></h3>
 								<span class="product-available">In Stock</span>
 							</div>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							<p>Incluye: - Primer envio Gratis. 
+										- Garantía de Cría viva al nacer.
+										- Seguro básico de compra.
+							</p>
+							<p>Vendedor: <a href="#">Yeguada Trujillo, S.L.</a></p>
 
 							<div class="product-options">
 								<label>
-									Size
+									Calendary 
 									<select class="input-select">
-										<option value="0">X</option>
+										<option value="0">A: Lunes - Miercoles - Viernes</option>
+										<option value="1">B: Martes - Jueves - Sabado</option>
+										<option value="1">C: Miercoles - viernes - festivos</option>
 									</select>
 								</label>
 								<label>
-									Color
+									Semen 
 									<select class="input-select">
-										<option value="0">Red</option>
+										<option value="0">Fresco</option>
+										<option value="1">Congelado</option>
+										<option value="1">Sexado</option>
+										<option value="1">Genomico</option>
+										<option value="1">Probado</option>
+										<option value="1">Mejorante</option>
 									</select>
 								</label>
 							</div>
 
 							<div class="add-to-cart">
 								<div class="qty-label">
-									Qty
+									Quantity
 									<div class="input-number">
 										<input type="number">
 										<span class="qty-up">+</span>
 										<span class="qty-down">-</span>
 									</div>
 								</div>
-								<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
+								<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> buy now</button>
 							</div>
 
 							<ul class="product-btns">
@@ -333,8 +372,9 @@
 
 							<ul class="product-links">
 								<li>Category:</li>
-								<li><a href="#">Headphones</a></li>
-								<li><a href="#">Accessories</a></li>
+								<li><a href="#">Horses</a></li>
+								<li><a href="#">PRE</a></li>
+								<li><a href="#">Stallions</a></li>
 							</ul>
 
 							<ul class="product-links">
@@ -356,6 +396,10 @@
 							<ul class="tab-nav">
 								<li class="active"><a data-toggle="tab" href="#tab1">Description</a></li>
 								<li><a data-toggle="tab" href="#tab2">Details</a></li>
+								<li><a data-toggle="tab" href="#tab2">Pedigree</a></li>
+								<li><a data-toggle="tab" href="#tab2">Deps</a></li>
+								<li><a data-toggle="tab" href="#tab1">Progeny</a></li>
+								<li><a data-toggle="tab" href="#tab1">Offspring</a></li>
 								<li><a data-toggle="tab" href="#tab3">Reviews (3)</a></li>
 							</ul>
 							<!-- /product tab nav -->
@@ -587,14 +631,14 @@
 					<div class="col-md-3 col-xs-6">
 						<div class="product">
 							<div class="product-img">
-								<img src="./img/product01.png" alt="">
+								<img src="./img/catalogs/Yucatan-sr4.jpg" alt="">
 								<div class="product-label">
-									<span class="sale">-30%</span>
+									<span class="sale-off-lite">-30%</span>
 								</div>
 							</div>
 							<div class="product-body">
-								<p class="product-category">Category</p>
-								<h3 class="product-name"><a href="#">product name goes here</a></h3>
+								<p class="product-category">Horses</p>
+								<h3 class="product-name"><a href="#">Yucatan de Ramos</a></h3>
 								<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
 								<div class="product-rating">
 								</div>
@@ -615,14 +659,14 @@
 					<div class="col-md-3 col-xs-6">
 						<div class="product">
 							<div class="product-img">
-								<img src="./img/product02.png" alt="">
+								<img src="./img/catalogs/Yucatan-sr4.jpg" alt="">
 								<div class="product-label">
-									<span class="new">NEW</span>
+									<span class="pro">Pro</span>
 								</div>
 							</div>
 							<div class="product-body">
-								<p class="product-category">Category</p>
-								<h3 class="product-name"><a href="#">product name goes here</a></h3>
+								<p class="product-category">Choice</p>
+								<h3 class="product-name"><a href="#">Yucatan de Ramos</a></h3>
 								<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
 								<div class="product-rating">
 									<i class="fa fa-star"></i>
@@ -650,11 +694,14 @@
 					<div class="col-md-3 col-xs-6">
 						<div class="product">
 							<div class="product-img">
-								<img src="./img/product03.png" alt="">
+								<img src="./img/catalogs/Yucatan-sr4.jpg" alt="">
+								<div class="product-label">
+									<span class="ad">Ad</span>
+								</div>
 							</div>
 							<div class="product-body">
-								<p class="product-category">Category</p>
-								<h3 class="product-name"><a href="#">product name goes here</a></h3>
+								<p class="product-category">Advertising</p>
+								<h3 class="product-name"><a href="#">Yucatan de Ramos</a></h3>
 								<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
 								<div class="product-rating">
 									<i class="fa fa-star"></i>
@@ -680,11 +727,14 @@
 					<div class="col-md-3 col-xs-6">
 						<div class="product">
 							<div class="product-img">
-								<img src="./img/product04.png" alt="">
+								<img src="./img/catalogs/Yucatan-sr4.jpg" alt="">
+								<div class="product-label">
+									<span class="sponsor">Sponsor</span>
+								</div>
 							</div>
 							<div class="product-body">
-								<p class="product-category">Category</p>
-								<h3 class="product-name"><a href="#">product name goes here</a></h3>
+								<p class="product-category">Sponsored</p>
+								<h3 class="product-name"><a href="#">Yucatan de Ramos</a></h3>
 								<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
 								<div class="product-rating">
 								</div>
@@ -827,25 +877,18 @@
 					<div class="row">
 						<div class="col-md-12 text-center">
 							<ul class="footer-payments">
-								<li><a href="#"><i class="fab fa-cc-visa"></i></a></li>
-								<li><a href="#"><i class="fab fa-cc-stripe"></i></a></li>
 								<li><a href="#"><i class="fab fa-cc-paypal"></i></a></li>
-								<li><a href="#"><i class="fab fa-cc-amex"></i></a></li>
-								<li><a href="#"><i class="fab fa-cc-apple-pay"></i></a></li>
+								<li><a href="#"><i class="fab fa-cc-stripe"></i></a></li>
 								<li><a href="#"><i class="fab fa-cc-mastercard"></i></a></li>
+								<li><a href="#"><i class="fab fa-cc-visa"></i></a></li>
+								<li><a href="#"><i class="fab fa-cc-amex"></i></a></li>
 								<li><a href="#"><i class="fab fa-cc-diners-club"></i></a></li>
+								<li><a href="#"><i class="fab fa-cc-apple-pay"></i></a></li>
 								<li><a href="#"><i class="fab fa-bitcoin"></i></a></li>
 							</ul>
-
 							<span class="copyright">
-								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-								Copyright &copy;<script>document.write(new Date().getFullYear());</script> BreedMarket, Inc. - All rights reserved.
-
-								<!--
-									Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#" target="_blank">BreedBuy.com</a>
-								-->
-							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-
+                                Copyright &copy;<script>document.write(new Date().getFullYear());</script><a href="https://breedmarket.com"> BreedMarket, Inc. </a> - All rights reserved.
+							</span>	
 							</span>	
 						</div>
 					</div>

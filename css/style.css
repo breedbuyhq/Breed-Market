@@ -2128,7 +2128,7 @@ textarea.input {
 }
 
 /*=========================================================
-	11 -> FOOTER
+	11 -> FOOTER & COPYRIGHT & PAYMENTS CARDS ICONS
 ===========================================================*/
 
 #footer {
@@ -2137,7 +2137,12 @@ textarea.input {
 }
 
 #bottom-footer {
-  background: #1E1F29;
+  background: #1DB954;
+  color: #E4E7ED ;
+}
+
+#bottom-footer .fab {
+  color: #E4E7ED;
 }
 
 .footer {
@@ -2145,7 +2150,7 @@ textarea.input {
 }
 
 .footer .footer-title {
-  color: #FFF;
+  color: #FBFBFC;
   text-transform: uppercase;
   font-size: 18px;
   margin: 0px 0px 30px;
@@ -2167,7 +2172,7 @@ textarea.input {
 }
 
 .footer-links li a:hover {
-  color: #1DB954;
+  color: #1DB954; 
 }
 
 .copyright {
@@ -2176,13 +2181,21 @@ textarea.input {
   font-size: 12px;
 }
 
+.copyright a{
+  color: #FBFBFC;
+}
+
+.copyright a:hover{
+  color: #141414;
+}
+
 .footer-payments li {
   display: inline-block;
   margin-right: 5px;
 }
 
 .footer-payments li a {
-  color: #15161D;
+  color: #FBFBFC;
   font-size: 36px;
   display: block;
 }
